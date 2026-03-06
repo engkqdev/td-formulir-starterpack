@@ -1,0 +1,158 @@
+####################################################################################################
+
+new PlayerText: Text_Player[MAX_PLAYERS][10];
+
+Text_Player[playerid][0] = CreatePlayerTextDraw(playerid, 144.000, 150.000, "LD_SPAC:white");
+PlayerTextDrawTextSize(playerid, Text_Player[playerid][0], 117.000, 224.000);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][0], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][0], 65535);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][0], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][0], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][0], 255);
+PlayerTextDrawFont(playerid, Text_Player[playerid][0], 4);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][0], 1);
+
+Text_Player[playerid][1] = CreatePlayerTextDraw(playerid, 145.000, 152.000, "LD_SPAC:white");
+PlayerTextDrawTextSize(playerid, Text_Player[playerid][1], 115.000, 220.000);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][1], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][1], -1);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][1], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][1], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][1], 255);
+PlayerTextDrawFont(playerid, Text_Player[playerid][1], 4);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][1], 1);
+
+Text_Player[playerid][2] = CreatePlayerTextDraw(playerid, 183.000, 164.000, "FORMULIR");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid][2], 0.239, 1.199);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][2], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][2], 255);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][2], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][2], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][2], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid][2], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][2], 1);
+
+Text_Player[playerid][3] = CreatePlayerTextDraw(playerid, 177.000, 175.000, "STARTERPACK");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid][3], 0.239, 1.199);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][3], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][3], 255);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][3], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][3], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][3], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid][3], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][3], 1);
+
+Text_Player[playerid][4] = CreatePlayerTextDraw(playerid, 143.000, 185.000, "-");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid][4], 8.420, 0.799);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][4], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][4], 255);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][4], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][4], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][4], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid][4], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][4], 1);
+
+Text_Player[playerid][5] = CreatePlayerTextDraw(playerid, 159.000, 202.000, "Kami dari pemerintahan kota Village State ingin memberimu sejumlah uang untuk bertahan hidup dikota ini, terimakasih");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid][5], 0.180, 0.898);
+PlayerTextDrawTextSize(playerid, Text_Player[playerid][5], 253.000, 261.000);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][5], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][5], 255);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][5], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][5], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][5], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid][5], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][5], 1);
+
+Text_Player[playerid][6] = CreatePlayerTextDraw(playerid, 213.000, 324.000, "LD_DRV:nawtxt");
+PlayerTextDrawTextSize(playerid, Text_Player[playerid][6], 34.000, 39.000);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][6], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][6], -1);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][6], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][6], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][6], 255);
+PlayerTextDrawFont(playerid, Text_Player[playerid][6], 4);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][6], 1);
+
+Text_Player[playerid][7] = CreatePlayerTextDraw(playerid, 159.000, 248.000, "Jangan lupa mengisi Nama Lengkap kalian dibawah, untuk mendapatkan Starterpack dari kami!");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid][7], 0.180, 0.898);
+PlayerTextDrawTextSize(playerid, Text_Player[playerid][7], 253.000, 280.000);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][7], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][7], 255);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][7], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][7], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][7], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid][7], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][7], 1);
+
+Text_Player[playerid][8] = CreatePlayerTextDraw(playerid, 143.000, 375.000, "-");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid][8], 8.420, 0.799);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][8], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][8], -1);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][8], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][8], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][8], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid][8], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][8], 1);
+
+Text_Player[playerid][9] = CreatePlayerTextDraw(playerid, 159.000, 348.000, "-");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid][9], 2.880, 0.799);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid][9], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid][9], 255);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid][9], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid][9], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid][9], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid][9], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid][9], 1);
+
+####################################################################################################
+
+new PlayerText: engkq_namaplayers[MAX_PLAYERS];
+new PlayerText: Text_Player[MAX_PLAYERS];
+new PlayerText: Text_Player[MAX_PLAYERS];
+new PlayerText: Text_Player[MAX_PLAYERS];
+
+engkq_namaplayers[playerid] = CreatePlayerTextDraw(playerid, 159.000, 312.000, "Nama Lengkap");
+PlayerTextDrawLetterSize(playerid, engkq_namaplayers[playerid], 0.180, 0.898);
+PlayerTextDrawTextSize(playerid, engkq_namaplayers[playerid], 253.000, 261.000);
+PlayerTextDrawAlignment(playerid, engkq_namaplayers[playerid], 1);
+PlayerTextDrawColor(playerid, engkq_namaplayers[playerid], 255);
+PlayerTextDrawSetShadow(playerid, engkq_namaplayers[playerid], 0);
+PlayerTextDrawSetOutline(playerid, engkq_namaplayers[playerid], 0);
+PlayerTextDrawBackgroundColor(playerid, engkq_namaplayers[playerid], 150);
+PlayerTextDrawFont(playerid, engkq_namaplayers[playerid], 1);
+PlayerTextDrawSetProportional(playerid, engkq_namaplayers[playerid], 1);
+PlayerTextDrawSetSelectable(playerid, engkq_namaplayers[playerid], 1);
+
+Text_Player[playerid] = CreatePlayerTextDraw(playerid, 210.000, 312.000, "Pemerintahan");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid], 0.180, 0.898);
+PlayerTextDrawTextSize(playerid, Text_Player[playerid], 253.000, 261.000);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid], 255);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid], 1);
+
+Text_Player[playerid] = CreatePlayerTextDraw(playerid, 212.000, 338.000, "Village State");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid], 0.180, 0.898);
+PlayerTextDrawTextSize(playerid, Text_Player[playerid], 253.000, 261.000);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid], -16776961);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid], -1);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid], 1);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid], 1);
+
+Text_Player[playerid] = CreatePlayerTextDraw(playerid, 168.000, 335.000, "Village");
+PlayerTextDrawLetterSize(playerid, Text_Player[playerid], 0.300, 1.299);
+PlayerTextDrawTextSize(playerid, Text_Player[playerid], 192.000, 261.000);
+PlayerTextDrawAlignment(playerid, Text_Player[playerid], 1);
+PlayerTextDrawColor(playerid, Text_Player[playerid], 255);
+PlayerTextDrawSetShadow(playerid, Text_Player[playerid], 0);
+PlayerTextDrawSetOutline(playerid, Text_Player[playerid], 0);
+PlayerTextDrawBackgroundColor(playerid, Text_Player[playerid], 150);
+PlayerTextDrawFont(playerid, Text_Player[playerid], 0);
+PlayerTextDrawSetProportional(playerid, Text_Player[playerid], 1);
+
