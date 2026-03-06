@@ -9,8 +9,7 @@ Ini adalah system menclaim starterpack dari pemerintahan, untuk kota **Village S
 4. **One-Time Validation**: Fitur ini dilengkapi dengan sistem pengecekan database untuk memastikan setiap warga hanya dapat mengklaim bantuan satu kali.
 
 ### **Informasi**
-Author : Engkq
-
-Note : jangan hapus credits ya kawang kawang, izin
+- Author : Engkq
+- Note : jangan hapus Author ya kawang kawang, izin
 
 ---
